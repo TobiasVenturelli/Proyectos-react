@@ -1,0 +1,83 @@
+[
+    {
+        "index": 1,
+        "nombre": "BORCEGO COUNTRY",
+        "descripcion": "Las nuevos borcegos Country tienen una plataforma tipo track y un accesorio con cierre en la capellada que le suma mucha personalidad al look.",
+        "imagen": "https://www.paruolo.com.ar/media/catalog/product/3/9/39995_b_0.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:",
+        "precio": 10000,
+        "stock": 10,
+        "categoria": "borcegos"
+    },
+    {
+        "index": 2,
+        "nombre": "BORCEGO LESLIE",
+        "descripcion": "Las nuevos borcegos Leslie tienen una plataforma tipo track y un accesorio con cierre en la capellada que le suma mucha personalidad al look.",
+        "imagen": "https://www.paruolo.com.ar/media/catalog/product/3/9/39634_b_0.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:",
+        "precio": 15000,
+        "stock": 9,
+        "categoria": "borcegos"
+    },
+    {
+        "index": 3,
+        "nombre": "BORCEGOS STARLITE",
+        "descripcion": "Los nuevos borcegos Starlite son una opción versátil para el entretiempo y el invierno. Se destacan por la altura de la caña un poco más elevada, punta redondeada y suelas robustas.",
+        "imagen": "https://www.paruolo.com.ar/media/catalog/product/3/9/39909_b_0.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:",
+        "precio": 12000,
+        "stock": 8,
+        "categoria": "borcegos"
+    },
+    {
+        "index": 4,
+        "nombre": "SANDALIAS ROSIE ",
+        "descripcion": "Las nuevas sandalias Rosie en formato mule, se distinguen por su comidad debido a la altura del taco. Ideales para sumar sofisticación a tus looks sin perder comfort.",
+        "imagen": "https://www.paruolo.com.ar/media/catalog/product/3/9/39526_b_0_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:",
+        "precio": 20000,
+        "stock": 6,
+        "categoria": "sandalias"
+    },
+    {
+        "index": 5,
+        "nombre": "SANDALIAS GLORY",
+        "descripcion": "Las sandalias Glory se caracterizan por aportar sofisticación sin perder comodidad. Con tres fajas finas que estilizan tus looks.",
+        "imagen": "https://www.paruolo.com.ar/media/catalog/product/3/7/37881_b_0.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:",
+        "precio": 20000,
+        "stock": 7,
+        "categoria": "sandalias"
+    },
+    {
+        "index": 6,
+        "nombre": "SANDALIAS GLORY",
+        "descripcion": "Las sandalias Glory se caracterizan por aportar sofisticación sin perder comodidad. Con tres fajas finas que estilizan tus looks.",
+        "imagen": "https://www.paruolo.com.ar/media/catalog/product/3/8/38735_b_0_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:",
+        "precio": 15000,
+        "stock": 6,
+        "categoria": "sandalias"
+    },
+    {
+        "index": 7,
+        "nombre": "TEXANA METALLIC",
+        "descripcion": "Las nuevas texanas Metallic, tienen una altura de caña justa para estilizar tus looks. Con taco medio, tienen una puntera metálica que marca la diferencia.",
+        "imagen": "https://www.paruolo.com.ar/media/catalog/product/3/9/39175_b_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:",
+        "precio": 12000,
+        "stock": 12,
+        "categoria": "texanas"
+    },
+    {
+        "index": 8,
+        "nombre": "TEXANA INTENSE",
+        "descripcion": "Descubrí el item que ya se convirtió en un ícono: texanas con caña más alta y bordadas a tono. El taco medio permite ganar altura y estiliza al máximo.",
+        "imagen": "https://www.paruolo.com.ar/media/catalog/product/3/9/39901_b_0.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:",
+        "precio": 14000,
+        "stock": 10,
+        "categoria": "texanas"
+    },
+    {
+        "index": 9,
+        "nombre": "TEXANA PIPER",
+        "descripcion": "Las texanas Piper son un clásico que no falla. Con bordado en la capellada frontal, y taco medio para estilizar tus looks diarios.",
+        "imagen": "https://www.paruolo.com.ar/media/catalog/product/3/9/39869_b_0.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:",
+        "precio": 12500,
+        "stock": 8,
+        "categoria": "texanas"
+    }
+]
