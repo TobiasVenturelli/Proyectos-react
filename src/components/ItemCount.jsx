@@ -22,7 +22,6 @@ const ItemCount = ({stock, onAdd}) => {
         if (itemStock >= items) {
             setItemStock(itemStock - items);
             setItems(1);
-            console.log("Agregaste: " + items + " Productos al Carrito!");
             setItemAgregado(true);
             onAdd(items);
         }
