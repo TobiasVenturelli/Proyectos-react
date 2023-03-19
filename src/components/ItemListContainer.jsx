@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import ItemList from "./ItemList";
-import { collection, getDocs, getFirestore } from "firebase/firestore";
+import { collection, getDocs, getFirestore, query, where } from "firebase/firestore";
 
 const ItemListContainer = () => {
     const [items, setItems] = useState([]);
@@ -32,7 +32,8 @@ const ItemListContainer = () => {
     useEffect(() => {
         const dataBase = getFirestore();
         const itemsCollection = collection(dataBase, "items");
-        getDocs(itemsCollection).then(elements => {
+        const filtrado = id ? query(itemsCollection, where("categoria", "==", id)) : itemsCollection;
+        getDocs(filtrado).then(elements => {
             setItems(elements.docs.map(element => ({id:element.id, ...element.data()})));
         })
 
