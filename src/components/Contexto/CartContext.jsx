@@ -16,7 +16,7 @@ const CartContextProvider = ({children}) => {
 
     const removeItem = (itemId) => {
         const productos = cart.filter(item => item.index !== itemId);
-        setCart([productos]);
+        setCart([...productos]);
     }
 
     const clear = () => {
@@ -32,7 +32,7 @@ const CartContextProvider = ({children}) => {
     }
 
     const cartSum = () => {
-        return cart.reduce((accum, item) => accum += item.quantity * item.price, 0);
+        return cart.reduce((accum, item) => accum += item.quantity * item.precio, 0);
     }
 
     return (
